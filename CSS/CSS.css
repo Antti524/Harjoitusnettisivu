@@ -1,0 +1,86 @@
+/* p vie tagiin, # on id ja . on class*/
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 200%;
+    list-style: none;
+    align-self: center;
+}
+.list-icon {
+    width: 30px;
+}
+li {
+    font-size: xx-large;
+    vertical-align: text-bottom;
+    border: 11px outset #8744C9;
+    border-radius: 20px 10px 20px 10px;
+    max-width: 800px;
+    align-items: center;
+    padding: 7px;
+}
+#AddItemText {
+    border: 15px solid #22BFBF;
+    border-radius: 20px;
+}
+.undone {
+    background-color: #22B5B5;
+}
+.done {
+    background-color: #6BD402;
+    text-decoration: line-through;
+}
+.tuhoa {
+    background-color: red;
+    text-decoration: line-through;
+}
+.counter-css {
+    font-size: x-large;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font: bold;
+    text-shadow: 3px 19px 11px #6BD402;
+    text-align: center;
+    font-style: italic;
+}
+body {
+    background-color: #22BFBF;
+    display: flex;
+    flex-direction: column;
+}
+.divs {
+    position:relative ;
+    margin: auto;
+    width: 66%;
+    border: 11px outset #8744C9;
+    border-radius: 20px 10px 20px 10px;
+    padding: 5px;
+    text-align: center;
+}
+.bigButton {
+    max-width: 300px;
+}
+img {
+    border-radius: 10px;
+}
+.inline {
+    display: inline !important;
+}
+p {
+    font-size: large;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    img {
+        border-radius: 10px;
+        margin: auto;
+        width: 100%;
+    }
+    .divs {
+        position:relative ;
+        margin: auto;
+        width: 100%;
+    }
+}

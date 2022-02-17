@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Own Notes!</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/CSS.css">
+    </head>
+    <body onload="welcome()">
+        <h1 id="WelcomeNotes"></h1>
+        <div class="divs">
+            <input id="AddItemText" type="text">
+            <input type="button" onclick="AddItem()" value="Add to Notes">
+            <input type="button" onclick="store()" value="Save notes!">
+            <br><p>Here you can add own notes.</p>
+        </div>
+        <div class="divs inline">
+            <p class="counter-css">You have Own notes: </p><p id="counterLi" class="counter-css"></p>
+        </div>
+        <div class="divs">
+            <p>Here you see own notes!</p>
+            <br><p>All notes have tree status, undone, done and DESTROY! You can allways change status by clicking.</p>
+            <ul id="list" class="stabil"></ul>
+        </div>
+        <div class="divs">
+            <img class="bigButton" src="img/destroy_ccexpress.png" alt="This button destroy all items that have done." onclick="destroy()">
+            <br><p>Press to DESTROY red ones!</p>
+        </div>
+    </body>
+    <script src="js/js.js"></script>
+</html>
